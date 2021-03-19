@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/TB/Desktop/App/Messenger-App/Messenger-App/ViewController/Login/ConversationViewModel.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Messenger-App.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
