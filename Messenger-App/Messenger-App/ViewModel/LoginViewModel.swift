@@ -30,7 +30,7 @@ class LoginViewModel {
             } else if error == nil && result != nil {
                 
                 self.delegate?.goToConversationPage()
-                
+
             } else {
                 switch (error! as NSError).code {
                 case 17011:

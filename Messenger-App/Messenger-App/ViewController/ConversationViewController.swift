@@ -36,10 +36,13 @@ final class ConversationViewController: UIViewController {
         setupTableView()
         conversationViewModel.delegate = self
         conversationViewModel.startListeningForConversations()
-        loginObserve()
-        
+        loginObserver = NotificationCenter.default.addObserver(forName: .didLogInNotification, object: nil, queue: .main, using: { [weak self] _ in
+            guard let strongSelf = self else {
+                return
+            }
+            strongSelf.conversationViewModel.startListeningForConversations()
+        })
     }
-    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -59,16 +62,19 @@ final class ConversationViewController: UIViewController {
             if let targetConversation = currentConversations.first(where: {
                 $0.otherUserEmail == DatabaseManager.safeEmail(emailAddress: result.email)
             }) {
-                strongSelf.goToPage(email: targetConversation.otherUserEmail, id: targetConversation.otherUserEmail, name: targetConversation.name)
+
+                strongSelf.goToPage(email: targetConversation.otherUserEmail, id: targetConversation.id, name: targetConversation.name, isNewConversation: false)
             }
             else {
+                
                 strongSelf.conversationViewModel.createNewConversation(result: result)
+                
             }
         }
         let navVC = UINavigationController(rootViewController: vc)
         present(navVC, animated: true)
     }
-    
+
     private func validateAuth() {
         if FirebaseAuth.Auth.auth().currentUser == nil {
             let vc = LogInViewController()
@@ -100,10 +106,10 @@ extension ConversationViewController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
-        
+        tableView.deselectRow(at: indexPath, animated: true)        
         let model = conversationViewModel.cellForRow(at: indexPath.row)
-        goToPage(email: model.otherUserEmail, id: model.id, name: model.name)
+        goToPage2(email: model.otherUserEmail, id: model.id, name: model.name)
+        
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -133,8 +139,7 @@ extension ConversationViewController: UITableViewDelegate, UITableViewDataSource
 
 
 extension ConversationViewController: ConversationViewModelProtocol {
-    
-    
+  
     func reloadData() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
@@ -142,26 +147,59 @@ extension ConversationViewController: ConversationViewModelProtocol {
     }
     
     func viewSettings(tableView: Bool, label: Bool) {
-        noConversationsLabel.isHidden = tableView
-        self.tableView.isHidden = label
+        
+            self.noConversationsLabel.isHidden = tableView
+            self.tableView.isHidden = label
+             
     }
     
-    func loginObserve() {
-        loginObserver = NotificationCenter.default.addObserver(forName: .didLogInNotification, object: nil, queue: .main, using: { [weak self] _ in
-            guard let strongSelf = self else {
-                return
-            }
-            strongSelf.conversationViewModel.startListeningForConversations()
-        })
+    func loginObserve(loginObserver: NSObjectProtocol) {
+        
+        DispatchQueue.main.async {
+            self.loginObserver = NotificationCenter.default.addObserver(forName: .didLogInNotification, object: nil, queue: .main, using: { [weak self] _ in
+                guard let strongSelf = self else {
+                    return
+                }
+                strongSelf.conversationViewModel.startListeningForConversations()
+            })
+        }
     }
     
-    func goToPage(email:String, id: String, name: String) {
+    func logInObserver () {
+        
+        if let observer = loginObserver {
+            NotificationCenter.default.removeObserver(observer)
+        }
+        
+    }
+    
+    func goToPage(email:String, id: String, name: String, isNewConversation: Bool) {
         let vc = ConversationDetailViewController(with: email, id: id)
-        vc.isNewConversation = true
+        vc.isNewConversation = isNewConversation
         vc.title = name
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
+    
+    func goToPage1(email:String, name: String, isNewConversation: Bool) {
+        let vc = ConversationDetailViewController(with: email, id: nil)
+        vc.isNewConversation = isNewConversation
+        vc.title = name
+        vc.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func goToPage2(email:String, id: String, name: String) {
+        let vc = ConversationDetailViewController(with: email, id: id)
+        vc.title = name
+        vc.navigationItem.largeTitleDisplayMode = .never
+        navigationController?.pushViewController(vc, animated: true)
+    }
+    
+
+    
+    
+
 }
 
 

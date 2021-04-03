@@ -46,6 +46,12 @@ extension MessageKind {
         }
     }
 }
+//enum MessageType {
+//    case Video
+//    case Photo
+//}
+
+
 
 struct Sender: SenderType {
     

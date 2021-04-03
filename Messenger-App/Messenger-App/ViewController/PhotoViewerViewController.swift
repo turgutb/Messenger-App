@@ -6,12 +6,12 @@
 //
 
 import UIKit
-import SDWebImage
+import Kingfisher
 
 final class PhotoViewerViewController: UIViewController {
 
     private let url: URL
-   
+    
     init(with url: URL) {
         self.url = url
         super.init(nibName: nil, bundle: nil)
@@ -33,12 +33,14 @@ final class PhotoViewerViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .never
         view.backgroundColor = .black
         view.addSubview(imageView)
-        imageView.sd_setImage(with: url, completed: nil)
+
+        imageView.kf.setImage(with: url)
        
     }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
+    
             imageView.frame = view.bounds
     }
 

@@ -10,7 +10,7 @@ import JGProgressHUD
 
 
 
-final class NewConversationViewController: UIViewController {
+class NewConversationViewController: UIViewController {
 
     public var completion: ((SearchResult) -> (Void))?
 
@@ -25,7 +25,12 @@ final class NewConversationViewController: UIViewController {
 
     private var hasFetched = false
 
-    private let searchBar: UISearchBar = {
+//    @IBOutlet weak var searchBar: UISearchBar!
+    
+//    @IBOutlet weak var tableView: UITableView!
+    
+    
+        private let searchBar: UISearchBar = {
         let searchBar = UISearchBar()
         searchBar.placeholder = "Search for Users..."
         return searchBar
@@ -56,6 +61,7 @@ final class NewConversationViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
+
         
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.topItem?.titleView = searchBar

@@ -51,6 +51,10 @@ class LogInViewController: UIViewController {
     
     @IBAction func loginTapped (sender: AnyObject) {
         
+        let email = emailTextField.text!
+        
+        UserDefaults.standard.set(email, forKey: "email") as? String
+        
         loginViewModel.login(email: emailTextField.text!, password: passwordTextField.text!)
         spinner.dismiss()
 

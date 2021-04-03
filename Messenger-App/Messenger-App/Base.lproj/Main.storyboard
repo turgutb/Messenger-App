@@ -278,22 +278,67 @@
         <!--New Conversation View Controller-->
         <scene sceneID="NVA-c8-vLB">
             <objects>
-                <viewController id="H3z-is-j6O" customClass="NewConversationViewController" customModule="Messenger_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="NewConversationViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="H3z-is-j6O" customClass="NewConversationViewController" customModule="Messenger_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hkG-uV-rxC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="7uW-eo-ZMr">
+                                <rect key="frame" x="10" y="84" width="399" height="60"/>
+                                <subviews>
+                                    <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="TaM-7K-AHd">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="60"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="H3z-is-j6O" id="qiC-wb-ur4"/>
+                                        </connections>
+                                    </searchBar>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jvM-PP-2Qv">
+                                        <rect key="frame" x="349" y="0.0" width="50" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="z1n-aQ-uua"/>
+                                        </constraints>
+                                        <state key="normal" title="Search"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Sy6-eh-lT1"/>
+                                </constraints>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jy3-bk-4aq">
+                                <rect key="frame" x="0.0" y="144" width="414" height="718"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="H3z-is-j6O" id="bDR-vJ-p0P"/>
+                                    <outlet property="delegate" destination="H3z-is-j6O" id="3yg-mS-QnV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="aWG-wK-8dt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7uW-eo-ZMr" firstAttribute="top" secondItem="aWG-wK-8dt" secondAttribute="top" constant="40" id="7pK-EZ-5Xi"/>
+                            <constraint firstItem="jy3-bk-4aq" firstAttribute="top" secondItem="7uW-eo-ZMr" secondAttribute="bottom" id="Cf2-jB-3sM"/>
+                            <constraint firstItem="aWG-wK-8dt" firstAttribute="trailing" secondItem="7uW-eo-ZMr" secondAttribute="trailing" constant="5" id="FhB-5e-ZgN"/>
+                            <constraint firstItem="jy3-bk-4aq" firstAttribute="bottom" secondItem="aWG-wK-8dt" secondAttribute="bottom" id="KjF-ik-mBP"/>
+                            <constraint firstItem="aWG-wK-8dt" firstAttribute="trailing" secondItem="jy3-bk-4aq" secondAttribute="trailing" id="Q0L-e1-Mc1"/>
+                            <constraint firstItem="7uW-eo-ZMr" firstAttribute="leading" secondItem="aWG-wK-8dt" secondAttribute="leading" constant="10" id="W5f-MS-Snh"/>
+                            <constraint firstItem="jy3-bk-4aq" firstAttribute="leading" secondItem="aWG-wK-8dt" secondAttribute="leading" id="ZD2-Ac-wDY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar" destination="TaM-7K-AHd" id="4uZ-LM-omf"/>
+                        <outlet property="tableView" destination="jy3-bk-4aq" id="hR0-xo-b8d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mCD-Ir-E5U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9206" y="240"/>
+            <point key="canvasLocation" x="9205.7971014492759" y="239.73214285714283"/>
         </scene>
         <!--Photo Viewer View Controller-->
         <scene sceneID="Wgi-SZ-Bzi">
             <objects>
-                <viewController id="Wy5-bt-MBN" customClass="PhotoViewerViewController" customModule="Messenger_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PhotoViewerViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wy5-bt-MBN" customClass="PhotoViewerViewController" customModule="Messenger_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Bb-V7-LEy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -303,7 +348,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7yC-PR-CGh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10348" y="256"/>
+            <point key="canvasLocation" x="10290" y="240"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3QI-Bt-0T8">
