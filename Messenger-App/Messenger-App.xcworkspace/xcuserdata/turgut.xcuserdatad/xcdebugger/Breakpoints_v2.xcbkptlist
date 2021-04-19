@@ -23,22 +23,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BA959F19-E16C-43C8-BABC-4D46CBFF0B9C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "341"
-            endingLineNumber = "341"
-            landmarkName = "inputBar(_:didPressSendButtonWith:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "B63AF036-EAEC-4FFE-AE94-062DE902CAE6"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -46,8 +30,8 @@
             filePath = "../../../../Documents/ConversationViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "startListeningForConversations()"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +62,8 @@
             filePath = "../../../../Documents/ConversationViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "startListeningForConversations()"
             landmarkType = "7">
          </BreakpointContent>
@@ -103,47 +87,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E16CD8E4-8AC2-4595-80D9-B8100D4E9328"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../../Documents/ConversationViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
-            landmarkName = "createNewConversation(result:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4509A181-2C66-4986-85CC-32C451DA45B1"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../../Documents/ConversationViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "createNewConversation(result:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "FE7DD5CD-C670-4C9C-B9ED-718708E6933F"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "498"
-            endingLineNumber = "498"
+            startingLineNumber = "499"
+            endingLineNumber = "499"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +110,8 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "481"
-            endingLineNumber = "481"
+            startingLineNumber = "482"
+            endingLineNumber = "482"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,120 +126,8 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "440"
-            endingLineNumber = "440"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6EF71806-CFBC-4C39-BE44-47DE7A073318"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "508"
-            endingLineNumber = "508"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "275E32FA-B0F9-4830-B677-8622140691D8"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "520"
-            endingLineNumber = "520"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "57F93F8F-04C1-4DFC-B8FF-CE2766494625"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "529"
-            endingLineNumber = "529"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1D8D876B-7912-437E-8539-682C870D4982"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "538"
-            endingLineNumber = "538"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2E09F9BA-C1A5-4A55-B014-03F24D48CA76"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "549"
-            endingLineNumber = "549"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C28B8FC2-C2BF-43D8-B3B3-B6A32B2E7ADC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "587"
-            endingLineNumber = "587"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1FDDA8CC-EC0A-4C32-820B-02159B7C443A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "596"
-            endingLineNumber = "596"
+            startingLineNumber = "441"
+            endingLineNumber = "441"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -302,8 +142,8 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "428"
-            endingLineNumber = "428"
+            startingLineNumber = "429"
+            endingLineNumber = "429"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -318,8 +158,8 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "581"
-            endingLineNumber = "581"
+            startingLineNumber = "582"
+            endingLineNumber = "582"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -334,105 +174,9 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "576"
-            endingLineNumber = "576"
+            startingLineNumber = "577"
+            endingLineNumber = "577"
             landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F588AA9F-D787-416B-9C3E-FB93CF8470A4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "560"
-            endingLineNumber = "560"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F588AA9F-D787-416B-9C3E-FB93CF8470A4 - 57b0ff5dd530d662"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in Messenger_App.DatabaseManager.sendMessage(to: Swift.String, otherUserEmail: Swift.String, name: Swift.String, newMessage: Messenger_App.Message, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/Database/DatabaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "638"
-                  endingLineNumber = "638"
-                  offsetFromSymbolStart = "641">
-               </Location>
-               <Location
-                  uuid = "F588AA9F-D787-416B-9C3E-FB93CF8470A4 - 62e008abdf34464b"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (__C.FIRDataSnapshot) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in closure #1 (__C.FIRDataSnapshot) -&gt; () in Messenger_App.DatabaseManager.sendMessage(to: Swift.String, otherUserEmail: Swift.String, name: Swift.String, newMessage: Messenger_App.Message, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/Database/DatabaseManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "523"
-                  endingLineNumber = "523"
-                  offsetFromSymbolStart = "741">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5BEEFB88-A0C0-4DDA-969B-AAAB304A1B6B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "608"
-            endingLineNumber = "608"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA5C8C13-4945-43F1-9956-C3D2057A610A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/Database/DatabaseManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "618"
-            endingLineNumber = "618"
-            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BC25CF8D-75EE-41BF-BA20-6FD8EC3AE688"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -446,58 +190,10 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "180"
+            endingLineNumber = "180"
             landmarkName = "listenForMessages(id:shouldScrollToBottom:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "96BD078E-26EB-495D-8738-31110C3D7F54"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "96BD078E-26EB-495D-8738-31110C3D7F54 - 5fb51f1c5118a25a"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String, title: Swift.String, isNewConversation: Swift.Bool) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "2829">
-               </Location>
-               <Location
-                  uuid = "96BD078E-26EB-495D-8738-31110C3D7F54 - 994d18f3c79eddd9"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (Swift.Bool) -&gt; () in Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String, title: Swift.String, isNewConversation: Swift.Bool) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "91"
-                  endingLineNumber = "91"
-                  offsetFromSymbolStart = "81">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -510,106 +206,10 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "sendButtonTapped(text:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AC892411-5609-43EA-964F-AE065FC4370D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "171"
-            endingLineNumber = "171"
-            landmarkName = "sendPhotoMessage(with:fileName:messageId:title:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "AC892411-5609-43EA-964F-AE065FC4370D - 20c0e9e40c6fcb8b"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String, title: Swift.String) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "172"
-                  endingLineNumber = "172"
-                  offsetFromSymbolStart = "2328">
-               </Location>
-               <Location
-                  uuid = "AC892411-5609-43EA-964F-AE065FC4370D - 8479df509d4c8705"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String, title: Swift.String) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "174"
-                  endingLineNumber = "174"
-                  offsetFromSymbolStart = "43">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7D82AA7C-2993-42D7-9735-CCFA54B413BB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
-            landmarkName = "sendPhotoMessage(with:fileName:messageId:title:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7D82AA7C-2993-42D7-9735-CCFA54B413BB - fce98554d84e22ea"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String, title: Swift.String) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "818">
-               </Location>
-               <Location
-                  uuid = "7D82AA7C-2993-42D7-9735-CCFA54B413BB - 20c0e9e40c6fd6a3"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String, title: Swift.String) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "148"
-                  endingLineNumber = "148"
-                  offsetFromSymbolStart = "605">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -622,29 +222,29 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "171"
+            endingLineNumber = "171"
             landmarkName = "listenForMessages(id:shouldScrollToBottom:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "7445FC51-CEBC-42B7-AB69-CE0043F92708 - 86afd024865a1923"
-                  shouldBeEnabled = "No"
+                  uuid = "7445FC51-CEBC-42B7-AB69-CE0043F92708 - 1af6cb611a57fdf7"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Messenger_App.Message&gt;, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.listenForMessages(id: Swift.String, shouldScrollToBottom: Swift.Bool) -&gt; ()"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.listenForMessages(id: Swift.String, shouldScrollToBottom: Swift.Bool) -&gt; ()"
                   moduleName = "Messenger-App"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123"
-                  offsetFromSymbolStart = "314">
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "58">
                </Location>
                <Location
-                  uuid = "7445FC51-CEBC-42B7-AB69-CE0043F92708 - 86afd024865a1923"
-                  shouldBeEnabled = "No"
+                  uuid = "7445FC51-CEBC-42B7-AB69-CE0043F92708 - 86afd024865a180a"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;Messenger_App.Message&gt;, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.listenForMessages(id: Swift.String, shouldScrollToBottom: Swift.Bool) -&gt; ()"
@@ -653,9 +253,9 @@
                   urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "123"
-                  endingLineNumber = "123"
-                  offsetFromSymbolStart = "342">
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "259">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -686,8 +286,8 @@
             filePath = "Messenger-App/Database/DatabaseManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "685"
-            endingLineNumber = "685"
+            startingLineNumber = "686"
+            endingLineNumber = "686"
             landmarkName = "conversationExists(with:completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -759,70 +359,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EC53E04F-CF17-43CF-B848-2FD073366EBF"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "4BE5D6A1-A382-4787-918E-B9AC96053429"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4BE5D6A1-A382-4787-918E-B9AC96053429 - 5fb51f1c5118a4ce"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String, title: Swift.String, isNewConversation: Swift.Bool) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "1960">
-               </Location>
-               <Location
-                  uuid = "4BE5D6A1-A382-4787-918E-B9AC96053429 - 833830b12692734c"
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String, title: Swift.String, isNewConversation: Swift.Bool) -&gt; ()"
-                  moduleName = "Messenger-App"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "71"
-                  endingLineNumber = "71"
-                  offsetFromSymbolStart = "293">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6244A929-46D3-43B5-B3E5-9A8FB094B51B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -830,41 +366,9 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "79"
-            endingLineNumber = "79"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "39F8E3C4-6A6F-4191-8588-EFF78E715A72"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A39CA12-3A36-4881-BD47-C7F79EA775EB"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "sendPhotoMessage(with:fileName:messageId:title:)"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "sendButtonTapped(text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -878,25 +382,9 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
-            landmarkName = "ConversationDetailViewModel"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6AEB2F99-EAA0-4301-AD76-045E09902EB2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "237"
-            endingLineNumber = "237"
-            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -910,25 +398,9 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C9C9310B-1CAE-459D-A445-3D8EC12335CD"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "sendButtonTapped(text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -942,41 +414,9 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "80"
-            endingLineNumber = "80"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "0B9D9C6C-FA09-4AB5-88C7-254FE73D3BB5"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "570"
-            endingLineNumber = "570"
-            landmarkName = "messageReload(shouldScrollToBottom:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "901CFF54-0A2B-4BC3-92C9-E04EB8C5E33F"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "573"
-            endingLineNumber = "573"
-            landmarkName = "messageReload(shouldScrollToBottom:)"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
+            landmarkName = "sendButtonTapped(text:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -990,10 +430,966 @@
             filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "sendButtonTapped(text:title:isNewConversation:)"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "sendButtonTapped(text:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F94E95B-344B-488A-9170-E367CA078913"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Documents/ConversationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "createNewConversation(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F637EAF-348D-40EE-B0D8-6587D60B8959"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "sendButtonTapped(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "ConversationDetailViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - 953d2f458f757765"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.isNewConversation.getter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - 19f89a2ee92bcf11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.isNewConversation.setter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - d2d687f80b9dde8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.isNewConversation.modify : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - 2cef0bffde5a6a2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.isNewConversation.modify : Swift.Optional&lt;Swift.Bool&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - 3ee53c02440967f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Messenger_App.ConversationDetailViewModel"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "746">
+               </Location>
+               <Location
+                  uuid = "94C7B9D1-497E-472B-B600-A337D3F78E37 - 431c89a367fa3020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Messenger_App.ConversationDetailViewModel&gt;"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "695">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56C4BBAB-6B93-416F-9434-E4145745A27C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewController/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "newConversationButtonTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8075E3E3-1176-46A0-B5F2-67D9A6505697"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Documents/ConversationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "createNewConversation(result:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2683309E-353E-4D91-9059-AB6A1536B583"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "sendButtonTapped(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CDBE6F1D-ED9F-4E6B-9E5B-3D37B62028A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "sendButtonTapped(text:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CDBE6F1D-ED9F-4E6B-9E5B-3D37B62028A0 - fd969317a78436bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "2939">
+               </Location>
+               <Location
+                  uuid = "CDBE6F1D-ED9F-4E6B-9E5B-3D37B62028A0 - 86fcf1f577f492f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in Messenger_App.ConversationDetailViewModel.sendButtonTapped(text: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "145"
+                  endingLineNumber = "145"
+                  offsetFromSymbolStart = "99">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57BA494D-744E-483F-886A-33031781A547"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "sendButtonTapped(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "724A9E7B-979E-448F-A88C-65575040E73F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "createMessageId()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F8385B1-C377-493A-8B28-B40A6BB74CB7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewController/ConversationViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "goToPage1(email:name:isNewConversation:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ABB7D914-4BA4-4029-B002-28166AF052D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "118"
+            endingLineNumber = "118"
+            landmarkName = "sendButtonTapped(text:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DF2139D-A33D-4B63-B70F-6BBE971B9696"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7DF2139D-A33D-4B63-B70F-6BBE971B9696 - 8051a03ef1bcebee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "241"
+                  endingLineNumber = "241"
+                  offsetFromSymbolStart = "3098">
+               </Location>
+               <Location
+                  uuid = "7DF2139D-A33D-4B63-B70F-6BBE971B9696 - 389c6f8e50491dd4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "242"
+                  endingLineNumber = "242"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF88C253-8248-410B-899F-C925A67AF9C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "88CC21AB-5DA1-427F-A454-F159F71C3F6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1049A090-9A51-4B74-B199-C5CA4DB69A07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "222"
+            endingLineNumber = "222"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1049A090-9A51-4B74-B199-C5CA4DB69A07 - 8051a03ef1bce5bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "2359">
+               </Location>
+               <Location
+                  uuid = "1049A090-9A51-4B74-B199-C5CA4DB69A07 - a82cb4095a7f4927"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "224"
+                  endingLineNumber = "224"
+                  offsetFromSymbolStart = "202">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CD70128-EA95-40F3-A021-110A6D896BCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "415478B9-DC6A-4EFA-B431-1315B84AE410"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "sendPhotoMessage(with:fileName:messageId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "415478B9-DC6A-4EFA-B431-1315B84AE410 - ef6e05625a0df128"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "736">
+               </Location>
+               <Location
+                  uuid = "415478B9-DC6A-4EFA-B431-1315B84AE410 - 8051a03ef1bce144"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendPhotoMessage(with: Foundation.Data, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Desktop/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "199"
+                  endingLineNumber = "199"
+                  offsetFromSymbolStart = "626">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BCE2C544-1DBF-4276-A26E-66565ED6D9F0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "311"
+            endingLineNumber = "311"
+            landmarkName = "finishCreatingConversation(name:conversationID:firstMessage:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BCE2C544-1DBF-4276-A26E-66565ED6D9F0 - bf6e1bc247621b5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.DatabaseManager.(finishCreatingConversation in _397E6EA8684E3DD8BD065C1FAC8358B1)(name: Swift.String, conversationID: Swift.String, firstMessage: Messenger_App.Message, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "311"
+                  endingLineNumber = "311"
+                  offsetFromSymbolStart = "3486">
+               </Location>
+               <Location
+                  uuid = "BCE2C544-1DBF-4276-A26E-66565ED6D9F0 - 81c37e9b820c3991"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, __C.FIRDatabaseReference) -&gt; () in Messenger_App.DatabaseManager.(finishCreatingConversation in _397E6EA8684E3DD8BD065C1FAC8358B1)(name: Swift.String, conversationID: Swift.String, firstMessage: Messenger_App.Message, completion: (Swift.Bool) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/DatabaseManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "312"
+                  endingLineNumber = "312"
+                  offsetFromSymbolStart = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28AE6631-72C6-4C4B-B9C3-5E05928E7287"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "getAllConversations(for:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C7DD172-631D-459D-B35B-19BE5DE3AF13"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "createNewConversation(with:name:firstMessage:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5569C406-70E7-4058-AFC3-D8B06862FF17"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
+            landmarkName = "createNewConversation(with:name:firstMessage:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF4C1B0A-C0E3-45B6-B75A-DE3534033267"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "createNewConversation(with:name:firstMessage:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C523F4A0-CD88-4E6D-87BB-9B88A2C28901"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
+            landmarkName = "createNewConversation(with:name:firstMessage:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C0F9A9A-CD9D-427C-ABD2-D2F6FE3E3105"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "375"
+            endingLineNumber = "375"
+            landmarkName = "getAllMessagesForConversation(with:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83CF5331-CBA0-46A0-BDF4-701E3BF79FEE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/DatabaseManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "597"
+            endingLineNumber = "597"
+            landmarkName = "sendMessage(to:otherUserEmail:name:newMessage:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE956D06-8D59-41BC-853F-76F6F87161D6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewController/LocationPickerViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "didTapMap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32499A2F-1D7B-4E0B-93C7-372F8C25BF3C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "257"
+            endingLineNumber = "257"
+            landmarkName = "sendVideoMessege(with:fileName:messageId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1575B8B-F196-4131-B19E-A953181682AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "264"
+            endingLineNumber = "264"
+            landmarkName = "sendVideoMessege(with:fileName:messageId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1575B8B-F196-4131-B19E-A953181682AD - 5127c5d0ad19719b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.ConversationDetailViewModel.sendVideoMessege(with: Foundation.URL, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "901">
+               </Location>
+               <Location
+                  uuid = "E1575B8B-F196-4131-B19E-A953181682AD - d012c3ebc49c1654"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendVideoMessege(with: Foundation.URL, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "264"
+                  endingLineNumber = "264"
+                  offsetFromSymbolStart = "638">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "198B856A-267C-4956-B890-9B6C56573568"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewModel/ConversationDetailModelView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "sendVideoMessege(with:fileName:messageId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "198B856A-267C-4956-B890-9B6C56573568 - d012c3ebc49c12f8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendVideoMessege(with: Foundation.URL, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "292"
+                  endingLineNumber = "292"
+                  offsetFromSymbolStart = "3005">
+               </Location>
+               <Location
+                  uuid = "198B856A-267C-4956-B890-9B6C56573568 - 7e5a7350d6ed9915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; () in Messenger_App.ConversationDetailViewModel.sendVideoMessege(with: Foundation.URL, fileName: Swift.String, messageId: Swift.String) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/ViewModel/ConversationDetailModelView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "294"
+                  endingLineNumber = "294"
+                  offsetFromSymbolStart = "43">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6A6A760-797F-4A8A-A903-B8409340B076"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/StorageManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "uploadMessagePhoto(with:fileName:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6A6A760-797F-4A8A-A903-B8409340B076 - ac2b841519145d6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.StorageManager.uploadMessagePhoto(with: Foundation.Data, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "D6A6A760-797F-4A8A-A903-B8409340B076 - e689bcc1c234e3b9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Messenger_App.StorageManager.uploadMessagePhoto(with: Foundation.Data, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "291">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2460B097-108C-41EA-BA36-16CB40DE50FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/StorageManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "uploadMessagePhoto(with:fileName:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2460B097-108C-41EA-BA36-16CB40DE50FA - e689bcc1c234e040"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Messenger_App.StorageManager.uploadMessagePhoto(with: Foundation.Data, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "2460B097-108C-41EA-BA36-16CB40DE50FA - 17bcc9c74c719669"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.URL&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Messenger_App.StorageManager.uploadMessagePhoto(with: Foundation.Data, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "374204BC-9121-4342-B558-0BE1DFFE4F1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "198"
+            endingLineNumber = "198"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E94AC4AB-D991-484C-A95F-00DC83C3D279"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/ViewController/ConversationDetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "imagePickerController(_:didFinishPickingMediaWithInfo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEAE35B7-BB55-40A1-8CA5-7DE407C06576"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Messenger-App/Database/StorageManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "uploadMessageVideo(with:fileName:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DEAE35B7-BB55-40A1-8CA5-7DE407C06576 - 7e45cf0fd7f913ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Messenger_App.StorageManager.uploadMessageVideo(with: Foundation.URL, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "DEAE35B7-BB55-40A1-8CA5-7DE407C06576 - b996b58fc155a885"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRStorageMetadata&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Messenger_App.StorageManager.uploadMessageVideo(with: Foundation.URL, fileName: Swift.String, completion: (Swift.Result&lt;Swift.String, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Messenger-App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/TB/Documents/App/Messenger-App/Messenger-App/Messenger-App/Database/StorageManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "291">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

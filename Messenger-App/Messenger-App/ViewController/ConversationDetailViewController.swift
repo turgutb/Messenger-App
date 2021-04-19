@@ -18,21 +18,9 @@ import Kingfisher
 
 class ConversationDetailViewController: MessagesViewController {
     
-
-    public var isNewConversation: Bool = false
-
-    private let conversationDetailViewModel: ConversationDetailViewModel = ConversationDetailViewModel()
-   
-    init(with email: String, id: String?) {
-        self.conversationDetailViewModel.conversationId = id
-        self.conversationDetailViewModel.otherUserEmail = email
-        super.init(nibName: nil, bundle: nil)
-    }
     
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
     
+    public let conversationDetailViewModel: ConversationDetailViewModel = ConversationDetailViewModel()
     
     
     override func viewDidLoad() {
@@ -40,12 +28,13 @@ class ConversationDetailViewController: MessagesViewController {
         setupMessageView()
         conversationDetailViewModel.delegate = self
         
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         messageInputBar.inputTextView.becomeFirstResponder()
-      if let conversationId = conversationDetailViewModel.conversationId {
+        if let conversationId = conversationDetailViewModel.conversationId {
             conversationDetailViewModel.listenForMessages(id: conversationId, shouldScrollToBottom: true)
         }
     }
@@ -58,6 +47,7 @@ class ConversationDetailViewController: MessagesViewController {
         messageInputBar.delegate = self
         setupInputButton()
     }
+    
     
     private func setupInputButton() {
         let button = InputBarButtonItem()
@@ -98,9 +88,11 @@ class ConversationDetailViewController: MessagesViewController {
         actionSheet.addAction(UIAlertAction(title: "Video", style: .default, handler: { [weak self]  _ in
             self?.presentVideoInputActionsheet()
         }))
-
+        
         actionSheet.addAction(UIAlertAction(title: "Location", style: .default, handler: { [weak self]  _ in
             self?.presentLocationPicker()
+            
+            //            self?.conversationDetailViewModel.sendLocationTapped()
         }))
         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         
@@ -119,7 +111,7 @@ class ConversationDetailViewController: MessagesViewController {
             
             guard let messageId = strongSelf.conversationDetailViewModel.createMessageId(),
                   let conversationId = strongSelf.conversationDetailViewModel.conversationId,
-                  let name = strongSelf.title,
+                  let name = strongSelf.conversationDetailViewModel.name,
                   let selfSender = strongSelf.conversationDetailViewModel.selfSender else {
                 return
             }
@@ -179,34 +171,6 @@ class ConversationDetailViewController: MessagesViewController {
         actionSheet.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
         present(actionSheet, animated: true)
     }
-    
-    
-    
-    //    private func listenForMessages(id: String, shouldScrollToBottom: Bool) {
-    //        DatabaseManager.shared.getAllMessagesForConversation(with: id, completion: { [weak self] result in
-    //            switch result {
-    //            case .success(let messages):
-    //                print("success in getting messages: \(messages)")
-    //                guard !messages.isEmpty else {
-    //                    print("messages are empty")
-    //                    return
-    //                }
-    //                self?.messages = messages
-    //
-    //                DispatchQueue.main.async {
-    //                    self?.messagesCollectionView.reloadDataAndKeepOffset()
-    //
-    //                    if shouldScrollToBottom {
-    //                        self?.messagesCollectionView.scrollToLastItem()
-    //                    }
-    //                }
-    //            case .failure(let error):
-    //                print("failed to get messages: \(error)")
-    //            }
-    //        })
-    //    } 
-    
-    
 }
 
 extension ConversationDetailViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
@@ -218,117 +182,22 @@ extension ConversationDetailViewController: UIImagePickerControllerDelegate, UIN
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         picker.dismiss(animated: true, completion: nil)
-//                guard let messageId = conversationDetailViewModel.createMessageId(),
-//                      let conversationId = conversationDetailViewModel.conversationId,
-//                      let name = self.title,
-//                      let selfSender = conversationDetailViewModel.selfSender else {
-//                    return
-//                }
         
         guard let messageId = conversationDetailViewModel.createMessageId() else {
             return
         }
         
-        
-        
         if let image = info[.editedImage] as? UIImage,
            let imageData =  image.pngData() {
             let fileName = "photo_message_" + messageId.replacingOccurrences(of: " ", with: "-") + ".png"
-            conversationDetailViewModel.sendPhotoMessage(with: imageData, fileName: fileName, messageId: messageId, title: self.title!)
+            conversationDetailViewModel.sendPhotoMessage(with: imageData, fileName: fileName, messageId: messageId)
             
             
         } else if let videoUrl = info[.mediaURL] as? URL {
-            let fileName = "photo_message_" + messageId.replacingOccurrences(of: " ", with: "-") + ".mov"
-            conversationDetailViewModel.sendVideoMessege(with: videoUrl, fileName: fileName, messageId: messageId, title: self.title!)
+            let fileName = "video_message_" + messageId.replacingOccurrences(of: " ", with: "-") + ".mov"
+            conversationDetailViewModel.sendVideoMessege(with: videoUrl, fileName: fileName, messageId: messageId)
+            
         }
-        //        if let image = info[.editedImage] as? UIImage,
-        //           let imageData =  image.pngData() {
-        //            let fileName = "photo_message_" + messageId.replacingOccurrences(of: " ", with: "-") + ".png"
-        //
-        //
-        //
-        //            StorageManager.shared.uploadMessagePhoto(with: imageData, fileName: fileName, completion: { [weak self] result in
-        //                guard let strongSelf = self else {
-        //                     return
-        //                }
-        //
-        //                switch result {
-        //                case .success(let urlString):
-        //                    print("Uploaded Message Photo: \(urlString)")
-        //
-        //                    guard let url = URL(string: urlString),
-        //                          let placeholder = UIImage(systemName: "plus") else {
-        //                        return
-        //                    }
-        //
-        //                    let media = Media(url: url,
-        //                                      image: nil,
-        //                                      placeholderImage: placeholder,
-        //                                      size: .zero)
-        //
-        //                    let message = Message(sender: selfSender,
-        //                                          messageId: messageId,
-        //                                          sentDate: Date(),
-        //                                          kind: .photo(media))
-        //
-        //                    DatabaseManager.shared.sendMessage(to: conversationId, otherUserEmail: strongSelf.otherUserEmail, name: name, newMessage: message, completion: { success in
-        //
-        //                        if success {
-        //                            print("sent photo message")
-        //                        }
-        //                        else {
-        //                            print("failed to send photo message")
-        //                        }
-        //                    })
-        //
-        //                case .failure(let error):
-        //                    print("message photo upload error: \(error)")
-        //                }
-        //            })
-        //        }
-        
-        //        else if let videoUrl = info[.mediaURL] as? URL {
-        //            let fileName = "photo_message_" + messageId.replacingOccurrences(of: " ", with: "-") + ".mov"
-        //
-        //            StorageManager.shared.uploadMessageVideo(with: videoUrl, fileName: fileName, completion: { [weak self] result in
-        //                guard let strongSelf = self else {
-        //                    return
-        //                }
-        //
-        //                switch result {
-        //                case .success(let urlString):
-        //
-        //                    print("Uploaded Message Video: \(urlString)")
-        //
-        //                    guard let url = URL(string: urlString),
-        //                          let placeholder = UIImage(systemName: "plus") else {
-        //                        return
-        //                    }
-        //
-        //                    let media = Media(url: url,
-        //                                      image: nil,
-        //                                      placeholderImage: placeholder,
-        //                                      size: .zero)
-        //
-        //                    let message = Message(sender: selfSender,
-        //                                          messageId: messageId,
-        //                                          sentDate: Date(),
-        //                                          kind: .video(media))
-        //
-        //                    DatabaseManager.shared.sendMessage(to: conversationId, otherUserEmail: strongSelf.otherUserEmail, name: name, newMessage: message, completion: { success in
-        //
-        //                        if success {
-        //                            print("sent photo message")
-        //                        }
-        //                        else {
-        //                            print("failed to send photo message")
-        //                        }
-        //                    })
-        //                case .failure(let error):
-        //                    print("message photo upload error: \(error)")
-        //                }
-        //            })
-        //        }
     }
 }
 
@@ -337,72 +206,9 @@ extension ConversationDetailViewController: InputBarAccessoryViewDelegate {
     
     func inputBar(_ inputBar: InputBarAccessoryView, didPressSendButtonWith text: String) {
         
-            
-        conversationDetailViewModel.sendButtonTapped(text: text, title: self.title ?? "User", isNewConversation: isNewConversation)
+        conversationDetailViewModel.sendButtonTapped(text: text)
         
-
-        
-//        guard !text.replacingOccurrences(of: " ", with: "").isEmpty,
-//              let selfSender = self.selfSender,
-//              let messageId = createMessageId() else {
-//            return
-//        }
-//
-//        print("Sending: \(text)")
-//
-//        let message = Message(sender: selfSender,
-//                              messageId: messageId,
-//                              sentDate: Date(),
-//                              kind: .text(text))
-//
-//        if isNewConversation {
-//
-//            DatabaseManager.shared.createNewConversation(with: otherUserEmail, name: self.title ?? "User", firstMessage: message, completion: { [weak self] success in
-//                if success {
-//                    print("message sent")
-//                    self?.isNewConversation = false
-//                    let newConversationId = "conversation_\(message.messageId)"
-//                    self?.conversationId = newConversationId
-//                    self?.listenForMessages(id: newConversationId, shouldScrollToBottom: true)
-//                    self?.messageInputBar.inputTextView.text = nil
-//                }
-//                else {
-//                    print("faield ot send")
-//                }
-//            })
-//        }
-//        else {
-//            guard let conversationId = conversationId, let name = self.title else {
-//                return
-//            }
-//
-//            DatabaseManager.shared.sendMessage(to: conversationId, otherUserEmail: otherUserEmail, name: name, newMessage: message, completion: { [weak self] success in
-//                if success {
-//                    self?.messageInputBar.inputTextView.text = nil
-//                    print("message sent")
-//                }
-//                else {
-//                    print("failed to send")
-//                }
-//            })
-//        }
     }
-    
-    //    private func createMessageId() -> String? {
-    //
-    //        guard let currentUserEmail = UserDefaults.standard.value(forKey: "email") as? String else {
-    //            return nil
-    //        }
-    //
-    //        let safeCurrentEmail = DatabaseManager.safeEmail(emailAddress: currentUserEmail)
-    //        let dateString = Self.dateFormatter.string(from: Date())
-    //        let newIdentifier = "\(otherUserEmail)_\(safeCurrentEmail)_\(dateString)"
-    //
-    //        print("created message id: \(newIdentifier)")
-    //
-    //        return newIdentifier
-    //
-    //    }
 }
 
 extension ConversationDetailViewController: MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate {
@@ -417,12 +223,10 @@ extension ConversationDetailViewController: MessagesDataSource, MessagesLayoutDe
     func messageForItem(at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> MessageType {
         
         return conversationDetailViewModel.cellForRow(at: indexPath)
-//        return messages[indexPath.section]
     }
     
     func numberOfSections(in messagesCollectionView: MessagesCollectionView) -> Int {
         return conversationDetailViewModel.numberOfRow()
-//        return messages.count
     }
     
     func configureMediaMessageImageView(_ imageView: UIImageView, for message: MessageType, at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) {
@@ -454,62 +258,9 @@ extension ConversationDetailViewController: MessagesDataSource, MessagesLayoutDe
         
         conversationDetailViewModel.configureAvatar(avatarView: avatarView, message: message)
         
-//        let sender = message.sender
-//        if sender.senderId == conversationDetailViewModel.selfSender?.senderId {
-//
-//            if let currentUserImageURL = self.senderPhotoURL {
-//                avatarView.kf.setImage(with: currentUserImageURL)
-//            }
-//            else {
-//                guard let email = UserDefaults.standard.value(forKey: "email") as? String else {
-//                    return
-//                }
-//
-//                let safeEmail = DatabaseManager.safeEmail(emailAddress: email)
-//                let path = "images/\(safeEmail)_profile_picture.png"
-//
-//                StorageManager.shared.downloadURL(for: path, completion: { [weak self] result in
-//                    switch result {
-//                    case .success(let url):
-//                        self?.senderPhotoURL = url
-//                        DispatchQueue.main.async {
-//                            avatarView.kf.setImage(with: url)
-//                        }
-//                    case .failure(let error):
-//                        print("\(error)")
-//                    }
-//                })
-//            }
-//        }
-//
-//        else {
-//
-//            if let otherUserPhotoURL = self.otherUserPhotoURL {
-//                avatarView.kf.setImage(with: otherUserPhotoURL)
-//            }
-//            else {
-//                let email = self.otherUserEmail
-//                let safeEmail = DatabaseManager.safeEmail(emailAddress: email)
-//                let path = "images/\(safeEmail)_profile_picture.png"
-//
-//                StorageManager.shared.downloadURL(for: path, completion: { [weak self] result in
-//
-//                    switch result {
-//                    case .success(let url):
-//                        self?.otherUserPhotoURL = url
-//
-//                        DispatchQueue.main.async {
-//                            avatarView.kf.setImage(with: url)
-//                        }
-//
-//                    case .failure(let error):
-//                        print("\(error)")
-//                    }
-//                })
-//            }
-//        }
     }
 }
+
 
 extension ConversationDetailViewController: MessageCellDelegate {
     func didTapMessage(in cell: MessageCollectionViewCell) {
@@ -518,7 +269,7 @@ extension ConversationDetailViewController: MessageCellDelegate {
         }
         
         let message = conversationDetailViewModel.cellForRow(at: indexPath)
-
+        
         
         switch message.kind {
         case .location(let locationData):
@@ -538,7 +289,7 @@ extension ConversationDetailViewController: MessageCellDelegate {
         }
         
         let message = conversationDetailViewModel.cellForRow(at: indexPath)
-
+        
         
         switch message.kind {
         case .photo(let media):
@@ -582,6 +333,6 @@ extension ConversationDetailViewController: ConversationDetailViewProtocol {
             self.messageInputBar.inputTextView.text = nil
             
         }
-
+        
     }
 }

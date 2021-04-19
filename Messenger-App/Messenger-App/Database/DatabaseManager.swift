@@ -142,8 +142,9 @@ extension DatabaseManager {
 extension DatabaseManager {
 
     public func createNewConversation(with otherUserEmail: String, name: String, firstMessage: Message, completion: @escaping (Bool) -> Void) {
+        
         guard let currentEmail = UserDefaults.standard.value(forKey: "email") as? String,
-            let currentNamme = UserDefaults.standard.value(forKey: "name") as? String else {
+            let currentName = UserDefaults.standard.value(forKey: "name") as? String else {
                 return
         }
         let safeEmail = DatabaseManager.safeEmail(emailAddress: currentEmail)
@@ -201,7 +202,7 @@ extension DatabaseManager {
             let recipient_newConversationData: [String: Any] = [
                 "id": conversationId,
                 "other_user_email": safeEmail,
-                "name": currentNamme,
+                "name": currentName,
                 "latest_message": [
                     "date": dateString,
                     "message": message,

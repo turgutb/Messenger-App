@@ -174,23 +174,32 @@ extension ConversationViewController: ConversationViewModelProtocol {
     }
     
     func goToPage(email:String, id: String, name: String, isNewConversation: Bool) {
-        let vc = ConversationDetailViewController(with: email, id: id)
-        vc.isNewConversation = isNewConversation
+        let vc = ConversationDetailViewController()
+        vc.conversationDetailViewModel.conversationId = id
+        vc.conversationDetailViewModel.otherUserEmail = email
+        vc.conversationDetailViewModel.isNewConversation = isNewConversation
+        vc.conversationDetailViewModel.name = name
         vc.title = name
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
     
     func goToPage1(email:String, name: String, isNewConversation: Bool) {
-        let vc = ConversationDetailViewController(with: email, id: nil)
-        vc.isNewConversation = isNewConversation
+        let vc = ConversationDetailViewController()
+        vc.conversationDetailViewModel.conversationId = nil
+        vc.conversationDetailViewModel.otherUserEmail = email
+        vc.conversationDetailViewModel.isNewConversation = isNewConversation
+        vc.conversationDetailViewModel.name = name
         vc.title = name
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
     }
     
     func goToPage2(email:String, id: String, name: String) {
-        let vc = ConversationDetailViewController(with: email, id: id)
+        let vc = ConversationDetailViewController()
+        vc.conversationDetailViewModel.conversationId = id
+        vc.conversationDetailViewModel.otherUserEmail = email
+        vc.conversationDetailViewModel.name = name
         vc.title = name
         vc.navigationItem.largeTitleDisplayMode = .never
         navigationController?.pushViewController(vc, animated: true)
